@@ -9,7 +9,7 @@ This is a test project for interview
 $ pip install -r requirements.txt
 ```
 
-**Note** : You can user `db.sqlight`. it has some data on it for testing. this data includes:
+**Note** : You can use `db.sqlight`. it has some data on it for testing. this data includes:
 
 - a `admin` user [pass: admin]
 - a `user1` user [pass: 1234]
