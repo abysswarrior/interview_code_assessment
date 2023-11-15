@@ -1,6 +1,14 @@
 # interview_code_assessment
 This is a test project for interview
 
+# Big Note
+if i had enough time i will do this:
+
+- [ ] single commit for every change in code (also a single commit for single file)
+- [ ] dockerized project 
+- [ ] fix some OpenAPI misunderstanding foe swagger documentation (@extend_schema feature)
+- [ ] doc string for every method and class
+- 
 # Run Locally
 
 **Step 1 :** create a new virtualenv and install requirements.
