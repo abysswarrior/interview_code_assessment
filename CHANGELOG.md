@@ -1,3 +1,9 @@
+## 0.2.0 (2023-12-14)
+
+### Feat
+
+- **docker**: dokcer files added
+
 ## 0.1.0 (2023-12-14)
 
 ### Feat
