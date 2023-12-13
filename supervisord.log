@@ -1,0 +1,54 @@
+2023-11-15 12:26:03,707 INFO Set uid to user 0 succeeded
+2023-11-15 12:26:03,712 INFO RPC interface 'supervisor' initialized
+2023-11-15 12:26:03,712 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-11-15 12:26:03,712 INFO supervisord started with pid 1
+2023-11-15 12:26:04,715 INFO spawned: 'interview' with pid 7
+2023-11-15 12:26:05,856 INFO success: interview entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-15 12:26:57,129 WARN received SIGTERM indicating exit request
+2023-11-15 12:26:57,141 INFO waiting for interview to die
+2023-11-15 12:26:57,369 INFO stopped: interview (exit status 0)
+2023-11-15 12:28:05,377 INFO Set uid to user 0 succeeded
+2023-11-15 12:28:05,380 INFO RPC interface 'supervisor' initialized
+2023-11-15 12:28:05,380 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-11-15 12:28:05,381 INFO supervisord started with pid 1
+2023-11-15 12:28:06,383 INFO spawned: 'interview' with pid 7
+2023-11-15 12:28:07,512 INFO success: interview entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-15 12:28:34,681 WARN received SIGTERM indicating exit request
+2023-11-15 12:28:34,693 INFO waiting for interview to die
+2023-11-15 12:28:34,933 INFO stopped: interview (exit status 0)
+2023-11-15 12:30:19,045 INFO Set uid to user 0 succeeded
+2023-11-15 12:30:19,050 INFO RPC interface 'supervisor' initialized
+2023-11-15 12:30:19,050 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-11-15 12:30:19,051 INFO supervisord started with pid 1
+2023-11-15 12:30:20,053 INFO spawned: 'interview' with pid 7
+2023-11-15 12:30:21,189 INFO success: interview entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-15 12:31:06,176 WARN received SIGTERM indicating exit request
+2023-11-15 12:31:06,176 INFO waiting for interview to die
+2023-11-15 12:31:06,303 INFO stopped: interview (exit status 0)
+2023-11-15 12:36:24,833 INFO Set uid to user 0 succeeded
+2023-11-15 12:36:24,837 INFO RPC interface 'supervisor' initialized
+2023-11-15 12:36:24,837 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-11-15 12:36:24,838 INFO supervisord started with pid 1
+2023-11-15 12:36:25,840 INFO spawned: 'interview' with pid 7
+2023-11-15 12:36:26,992 INFO success: interview entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-15 12:39:33,896 WARN received SIGTERM indicating exit request
+2023-11-15 12:39:33,897 INFO waiting for interview to die
+2023-11-15 12:39:34,129 INFO stopped: interview (exit status 0)
+2023-11-15 12:40:48,645 INFO Set uid to user 0 succeeded
+2023-11-15 12:40:48,648 INFO RPC interface 'supervisor' initialized
+2023-11-15 12:40:48,648 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-11-15 12:40:48,649 INFO supervisord started with pid 1
+2023-11-15 12:40:49,652 INFO spawned: 'interview' with pid 7
+2023-11-15 12:40:50,804 INFO success: interview entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-15 12:49:15,487 WARN received SIGTERM indicating exit request
+2023-11-15 12:49:15,488 INFO waiting for interview to die
+2023-11-15 12:49:15,610 INFO stopped: interview (exit status 0)
+2023-11-15 12:49:19,103 INFO Set uid to user 0 succeeded
+2023-11-15 12:49:19,106 INFO RPC interface 'supervisor' initialized
+2023-11-15 12:49:19,106 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-11-15 12:49:19,106 INFO supervisord started with pid 1
+2023-11-15 12:49:20,121 INFO spawned: 'interview' with pid 7
+2023-11-15 12:49:21,238 INFO success: interview entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-15 12:50:15,413 WARN received SIGTERM indicating exit request
+2023-11-15 12:50:15,413 INFO waiting for interview to die
+2023-11-15 12:50:15,534 INFO stopped: interview (exit status 0)

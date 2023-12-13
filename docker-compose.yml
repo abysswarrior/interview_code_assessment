@@ -1,0 +1,48 @@
+version: "3.9"
+services:
+  interview:
+    build: .
+    container_name: interview
+    ports:
+      - "8000:8000"
+    volumes:
+      - type: bind
+        source: .
+        target: /code
+    networks:
+      - "app-network"
+  db:
+    container_name: pg_container
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_DB: interview_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - "app-network"
+
+  pgadmin:
+    container_name: pgadmin4_container
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: 12345
+    ports:
+      - "5050:80"
+    networks:
+      - "app-network"
+    depends_on:
+      - db
+
+volumes:
+  pg_data:
+
+networks:
+  app-network:
+    external: true
